@@ -1,6 +1,6 @@
 # Stone.js: Create Stone app
 
-[![npm](https://img.shields.io/npm/l/@stone-js/create)](https://opensource.org/licenses/Apache-2.0)
+[![npm](https://img.shields.io/npm/l/@stone-js/browser-core)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
 [![npm](https://img.shields.io/npm/dm/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)

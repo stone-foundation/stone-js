@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "create-stone is a tool to quickly start a Stone's project from a basic template",
   "author": "Mr. Stone <evensstone@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "git@github.com:stonemjs/create-stone.git",
   "homepage": "https://github.com/stonemjs/create-stone#readme",
   "bugs": {
@@ -36,13 +36,13 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.6",
-    "@stone-js/cli": "^0.0.2"
+    "@stone-js/cli": "^0.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@vitest/coverage-v8": "^2.1.8",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@vitest/coverage-v8": "^3.2.3",
     "husky": "^9.1.7",
-    "vitest": "^2.1.8"
+    "vitest": "^3.2.3"
   }
 }
