@@ -1,49 +1,79 @@
-# Stone.js: Create Stone app
+# Stone.js - Create Stone App
 
-[![npm](https://img.shields.io/npm/l/@stone-js/browser-core)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/l/@stone-js/create)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
 [![npm](https://img.shields.io/npm/dm/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
-[![Publish Package to npmjs](https://github.com/stonemjs/create/actions/workflows/release.yml/badge.svg)](https://github.com/stonemjs/create/actions/workflows/release.yml)
+[![Build Status](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml)
+[![Publish Package to npmjs](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=coverage)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](./SECURITY.md)
+[![CodeQL](https://github.com/stone-foundation/stone-js-create/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stone-foundation/stone-js-create/security/code-scanning)
+[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stone-foundation/stone-js-create/network/updates)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-Stone.js create fresh Stone App.
+Scaffold a new Stone.js app in seconds using your terminal.
 
 ---
 
-This tool allow you to quickly start a Stone's project from a basic template.
+## Overview
 
-With NPM:
+**Create Stone App** is the official scaffolding tool for Stone.js, designed to get your project up and running in just a few commands.
 
-```bash
-$ npm create @stone-js@latest
-```
-
-With Yarn:
+It powers the command:
 
 ```bash
-$ yarn create @stone-js
-```
+npm create stone
+````
 
-With PNPM:
+Under the hood, it clones a project starter, asks you a few questions, and sets up your application based on your choices.
 
-```bash
-$ pnpm create @stone-js
-```
+## Usage
 
-With Bun:
+To create a new Stone.js project:
 
 ```bash
-$ bunx @stone-js/create-stone
+npm create stone
 ```
 
-Then follow the prompts!
+Or with a custom project name:
 
----
+```bash
+npm create stone@latest my-app
+```
 
-Get started with the [documentation](https://stonejs.com/docs/installation).
+The tool will guide you through an interactive setup and generate a ready-to-run Stone.js application.
 
+You can then:
+
+```bash
+cd my-app
+npm install
+npm run dev
+```
+
+## What You Get
+
+Depending on your choices, the tool can scaffold:
+
+* Backend, frontend, or fullstack apps
+* React or Vue view layer
+* SPA or SSR rendering strategy
+* Basic, standard, or full application layout
+* Local development support with `stone serve`
+* Production-ready structure with `stone build` and `stone preview`
+
+## Learn More
+
+This package is part of the Stone.js ecosystem, a modern JavaScript framework built around the Continuum Architecture.
+
+Explore the full documentation: https://stonejs.dev
+
+## API documentation
+
+- [API](https://github.com/stone-foundation/stone-js-create/blob/main/docs/modules.md)
 
 ## Contributing
 
-See [Contributing Guide](https://github.com/stonemjs/cli/blob/main/CONTRIBUTING.md).
+See [Contributing Guide](https://github.com/stone-foundation/stone-js-create/blob/main/CONTRIBUTING.md).

@@ -1,13 +1,16 @@
 {
   "name": "@stone-js/create",
   "version": "0.0.0",
-  "description": "create-stone is a tool to quickly start a Stone's project from a basic template",
+  "description": "Scaffold a new Stone.js app in seconds using your terminal.",
   "author": "Mr. Stone <evensstone@gmail.com>",
   "license": "MIT",
-  "repository": "git@github.com:stonemjs/create-stone.git",
-  "homepage": "https://github.com/stonemjs/create-stone#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stone-foundation/stone-js-create.git"
+  },
+  "homepage": "https://stonejs.dev",
   "bugs": {
-    "url": "https://github.com/stonemjs/create-stone/issues"
+    "url": "https://github.com/stone-foundation/stone-js-create/issues"
   },
   "keywords": [
     "Stone.js",
