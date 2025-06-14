@@ -1,31 +1,79 @@
-# Stone.js: create-app
+# Stone.js - Create Stone App
 
-## Scaffolding Your First Stone Project
+[![npm](https://img.shields.io/npm/l/@stone-js/create)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
+[![npm](https://img.shields.io/npm/dm/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
+[![Build Status](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml)
+[![Publish Package to npmjs](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=coverage)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](./SECURITY.md)
+[![CodeQL](https://github.com/stone-foundation/stone-js-create/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stone-foundation/stone-js-create/security/code-scanning)
+[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stone-foundation/stone-js-create/network/updates)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-This tool allow you to quickly start a project from a basic template.
+Scaffold a new Stone.js app in seconds using your terminal.
 
-With NPM:
+---
+
+## Overview
+
+**Create Stone App** is the official scaffolding tool for Stone.js, designed to get your project up and running in just a few commands.
+
+It powers the command:
 
 ```bash
-$ npm create @stone-js@latest
+npm create stone
 ```
 
-With Yarn:
+Under the hood, it clones a project starter, asks you a few questions, and sets up your application based on your choices.
+
+## Usage
+
+To create a new Stone.js project:
 
 ```bash
-$ yarn create @stone-js
+npm create stone
 ```
 
-With PNPM:
+Or with a custom project name:
 
 ```bash
-$ pnpm create @stone-js
+npm create stone@latest my-app
 ```
 
-With Bun:
+The tool will guide you through an interactive setup and generate a ready-to-run Stone.js application.
+
+You can then:
 
 ```bash
-$ bunx @stone-js/create-stone
+cd my-app
+npm install
+npm run dev
 ```
 
-Then follow the prompts!
+## What You Get
+
+Depending on your choices, the tool can scaffold:
+
+* Backend, frontend, or fullstack apps
+* React or Vue view layer
+* SPA or SSR rendering strategy
+* Basic, standard, or full application layout
+* Local development support with `stone serve`
+* Production-ready structure with `stone build` and `stone preview`
+
+## Learn More
+
+This package is part of the Stone.js ecosystem, a modern JavaScript framework built around the Continuum Architecture.
+
+Explore the full documentation: https://stonejs.dev
+
+## API documentation
+
+- [API](https://github.com/stone-foundation/stone-js-create/blob/main/docs/modules.md)
+
+## Contributing
+
+See [Contributing Guide](https://github.com/stone-foundation/stone-js-create/blob/main/CONTRIBUTING.md).

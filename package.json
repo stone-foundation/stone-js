@@ -1,13 +1,16 @@
 {
   "name": "@stone-js/create",
   "version": "0.0.0",
-  "description": "create-stone is a tool to quickly start a Stone's project from a basic template",
+  "description": "Scaffold a new Stone.js app in seconds using your terminal.",
   "author": "Mr. Stone <evensstone@gmail.com>",
-  "license": "Apache-2.0",
-  "repository": "git@github.com:stonemjs/create-stone.git",
-  "homepage": "https://github.com/stonemjs/create-stone#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stone-foundation/stone-js-create.git"
+  },
+  "homepage": "https://stonejs.dev",
   "bugs": {
-    "url": "https://github.com/stonemjs/create-stone/issues"
+    "url": "https://github.com/stone-foundation/stone-js-create/issues"
   },
   "keywords": [
     "Stone.js",
@@ -27,14 +30,22 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "test": "vitest run",
+    "test:cvg": "npm run test -- --coverage",
+    "test:text": "npm run test:cvg -- --coverage.reporter=text",
+    "test:html": "npm run test:cvg -- --coverage.reporter=html",
+    "test:clover": "npm run test:cvg -- --coverage.reporter=clover",
     "prepare": "husky"
   },
   "dependencies": {
     "cross-spawn": "^7.0.6",
-    "@stone-js/cli": "^0.0.2"
+    "@stone-js/cli": "^0.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@vitest/coverage-v8": "^3.2.3",
+    "husky": "^9.1.7",
+    "vitest": "^3.2.3"
   }
 }

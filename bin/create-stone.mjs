@@ -1,11 +1,21 @@
 #!/usr/bin/env node
 import spawn from 'cross-spawn'
-import { argv } from 'node:process'
+import { argv, exit } from 'node:process'
 
-// Automatically invoke `stone init`
-const process = spawn('stone', ['init', ...argv.slice(2)], { stdio: 'inherit' });
+/**
+ * Automatically invoke `stone init` from the `@stone-js/create` entry point.
+ * This script forwards CLI arguments, inherits stdio, and exits with the proper code.
+ */
+const child = spawn('stone', ['init', ...argv.slice(2)], {
+  stdio: 'inherit',
+  shell: false
+})
 
-// Forward the exit code
-process.on('close', (code) => {
-  process.exit(code);
-});
+child.on('error', (error) => {
+  console.error(`Failed to run "stone init": ${error.message}`)
+  exit(1)
+})
+
+child.on('close', (code) => {
+  exit(code ?? 1)
+})
