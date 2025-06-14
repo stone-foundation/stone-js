@@ -25,7 +25,7 @@ It powers the command:
 
 ```bash
 npm create stone
-````
+```
 
 Under the hood, it clones a project starter, asks you a few questions, and sets up your application based on your choices.
 
