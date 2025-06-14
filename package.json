@@ -1,5 +1,5 @@
 {
-  "name": "@stone-js/create",
+  "name": "create-stone",
   "version": "0.1.0",
   "description": "Scaffold a new Stone.js app in seconds using your terminal.",
   "author": "Mr. Stone <evensstone@gmail.com>",
@@ -13,11 +13,15 @@
     "url": "https://github.com/stone-foundation/stone-js-create/issues"
   },
   "keywords": [
-    "Stone.js",
-    "Starter",
-    "Templates",
-    "Initializer",
-    "Scaffolding"
+    "stone",
+    "create-stone",
+    "scaffold",
+    "starter",
+    "templates",
+    "stone.js",
+    "stonejs",
+    "cli",
+    "initializer"
   ],
   "files": [
     "bin"
