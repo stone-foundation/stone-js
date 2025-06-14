@@ -1,16 +1,16 @@
 # Stone.js - Create Stone App
 
-[![npm](https://img.shields.io/npm/l/create-stone)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/create-stone)](https://www.npmjs.com/package/create-stone)
-[![npm](https://img.shields.io/npm/dm/create-stone)](https://www.npmjs.com/package/create-stone)
+[![npm](https://img.shields.io/npm/l/@stone-js/stone)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@stone-js/stone)](https://www.npmjs.com/package/@stone-js/stone)
+[![npm](https://img.shields.io/npm/dm/@stone-js/stone)](https://www.npmjs.com/package/@stone-js/stone)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
-[![Build Status](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml)
-[![Publish Package to npmjs](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-create&metric=coverage)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-create)
+[![Build Status](https://github.com/stone-foundation/stone-js/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js/actions/workflows/main.yml)
+[![Publish Package to npmjs](https://github.com/stone-foundation/stone-js/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js/actions/workflows/release.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js&metric=coverage)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js)
 [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](./SECURITY.md)
-[![CodeQL](https://github.com/stone-foundation/stone-js-create/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stone-foundation/stone-js-create/security/code-scanning)
-[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stone-foundation/stone-js-create/network/updates)
+[![CodeQL](https://github.com/stone-foundation/stone-js/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stone-foundation/stone-js/security/code-scanning)
+[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stone-foundation/stone-js/network/updates)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 Scaffold a new Stone.js app in seconds using your terminal.
@@ -72,8 +72,8 @@ Explore the full documentation: https://stonejs.dev
 
 ## API documentation
 
-- [API](https://github.com/stone-foundation/stone-js-create/blob/main/docs/modules.md)
+- [API](https://github.com/stone-foundation/stone-js/blob/main/docs/modules.md)
 
 ## Contributing
 
-See [Contributing Guide](https://github.com/stone-foundation/stone-js-create/blob/main/CONTRIBUTING.md).
+See [Contributing Guide](https://github.com/stone-foundation/stone-js/blob/main/CONTRIBUTING.md).
