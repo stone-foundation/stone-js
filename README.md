@@ -40,7 +40,7 @@ npm create @stone-js/stone
 Or with a custom project name:
 
 ```bash
-npm create @stone-js/stone@latest my-app
+npm create @stone-js/stone my-app
 ```
 
 The tool will guide you through an interactive setup and generate a ready-to-run Stone.js application.
