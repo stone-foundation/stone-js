@@ -1,8 +1,8 @@
 # Stone.js - Create Stone App
 
-[![npm](https://img.shields.io/npm/l/@stone-js/create)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
-[![npm](https://img.shields.io/npm/dm/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
+[![npm](https://img.shields.io/npm/l/create-stone)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/create-stone)](https://www.npmjs.com/package/create-stone)
+[![npm](https://img.shields.io/npm/dm/create-stone)](https://www.npmjs.com/package/create-stone)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
 [![Build Status](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/main.yml)
 [![Publish Package to npmjs](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js-create/actions/workflows/release.yml)

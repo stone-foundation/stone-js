@@ -3,7 +3,7 @@ import spawn from 'cross-spawn'
 import { argv, exit } from 'node:process'
 
 /**
- * Automatically invoke `stone init` from the `@stone-js/create` entry point.
+ * Automatically invoke `stone init` from the `@stone-js/cli` entry point.
  * This script forwards CLI arguments, inherits stdio, and exits with the proper code.
  */
 const child = spawn('stone', ['init', ...argv.slice(2)], {
