@@ -5,6 +5,13 @@ All notable changes to the "Stone.js Create" extension will be documented in thi
 ## Unreleased
 
 
+## [0.1.2](https://github.com/stone-foundation/stone-js/compare/v0.1.1...v0.1.2) (2025-06-14)
+
+
+### Bug Fixes
+
+* change the repo and npm package name ([#5](https://github.com/stone-foundation/stone-js/issues/5)) ([ec36dc8](https://github.com/stone-foundation/stone-js/commit/ec36dc82e9b3469cbf7da741de979ebe2a5841f8))
+
 ## [0.1.1](https://github.com/stone-foundation/stone-js/compare/v0.1.0...v0.1.1) (2025-06-14)
 
 

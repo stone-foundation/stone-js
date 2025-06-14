@@ -24,7 +24,7 @@ Scaffold a new Stone.js app in seconds using your terminal.
 It powers the command:
 
 ```bash
-npm create stone
+npm create @stone-js/stone
 ```
 
 Under the hood, it clones a project starter, asks you a few questions, and sets up your application based on your choices.
@@ -34,13 +34,13 @@ Under the hood, it clones a project starter, asks you a few questions, and sets 
 To create a new Stone.js project:
 
 ```bash
-npm create stone
+npm create @stone-js/stone
 ```
 
 Or with a custom project name:
 
 ```bash
-npm create stone@latest my-app
+npm create @stone-js/stone my-app
 ```
 
 The tool will guide you through an interactive setup and generate a ready-to-run Stone.js application.
