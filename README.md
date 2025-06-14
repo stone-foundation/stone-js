@@ -1,8 +1,8 @@
 # Stone.js - Create Stone App
 
-[![npm](https://img.shields.io/npm/l/@stone-js/stone)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/@stone-js/stone)](https://www.npmjs.com/package/@stone-js/stone)
-[![npm](https://img.shields.io/npm/dm/@stone-js/stone)](https://www.npmjs.com/package/@stone-js/stone)
+[![npm](https://img.shields.io/npm/l/@stone-js/create)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
+[![npm](https://img.shields.io/npm/dm/@stone-js/create)](https://www.npmjs.com/package/@stone-js/create)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
 [![Build Status](https://github.com/stone-foundation/stone-js/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js/actions/workflows/main.yml)
 [![Publish Package to npmjs](https://github.com/stone-foundation/stone-js/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js/actions/workflows/release.yml)
@@ -24,7 +24,7 @@ Scaffold a new Stone.js app in seconds using your terminal.
 It powers the command:
 
 ```bash
-npm create @stone-js/stone
+npm create @stone-js
 ```
 
 Under the hood, it clones a project starter, asks you a few questions, and sets up your application based on your choices.
@@ -34,13 +34,13 @@ Under the hood, it clones a project starter, asks you a few questions, and sets 
 To create a new Stone.js project:
 
 ```bash
-npm create @stone-js/stone
+npm create @stone-js
 ```
 
 Or with a custom project name:
 
 ```bash
-npm create @stone-js/stone my-app
+npm create @stone-js my-app
 ```
 
 The tool will guide you through an interactive setup and generate a ready-to-run Stone.js application.
